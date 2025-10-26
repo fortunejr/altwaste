@@ -26,7 +26,7 @@ const HeroSection = () => {
         {/* Left Text Section */}
         <div className="flex-1 text-center lg:text-left">
           {/* Animated Heading at the Top */}
-          <div className="h-16 overflow-hidden relative mb-2">
+          <div className="h-16 overflow-hidden relative">
             {phrases.map((phrase, i) => (
               <h2
                 key={i}
@@ -46,8 +46,8 @@ const HeroSection = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-            the <span className="text-[#9cffad]">Bio</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font- leading-tighter">
+            The <span className="">Bio</span>
             <span className="text-[#00ffc3]">Energy</span> <br />
             Recovery Project
           </h1>
@@ -60,7 +60,7 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4">
-            <button className="bg-lightGreen text-[#004d4b] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#00e6ad] transition-all">
+            <button className="bg-lightGreen text- font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#00e6ad] transition-all">
               Learn More
             </button>
             <button className="border border-[#00ffc3] px-6 py-3 rounded-full hover:bg-[#00ffc3]/20 transition-all">
@@ -75,13 +75,13 @@ const HeroSection = () => {
           <img
             src={hero}
             alt="BioEnergy Facility"
-            className="w-full h-auto max-w-[550px] drop-shadow-2xl rounded-2xl z-10"
+            className="w-full h-auto max-w-[650px] drop-shadow-2xl rounded-2xl z-10"
           />
         </div>
       </div>
 
       {/* Bottom Accent */}
-      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#00ffc3]" />
+      {/* <div className="absolute bottom-0 left-0 w-full h-2 bg-[#00ffc3]" /> */}
     </section>
   );
 };

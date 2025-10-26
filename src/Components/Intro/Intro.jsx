@@ -15,6 +15,7 @@ const Intro = () => {
               />
               <div className="absolute -bottom-6 -right-6 bg-lightGreen text-white px-5 py-2 rounded-full text-sm font-semibold shadow-md">
                 CEO & Head of Technology
+                <p>Dr. Nnanna-jnr Okoro, CEO AltWaste</p>
               </div>
             </div>
           </div>
@@ -96,7 +97,7 @@ const Intro = () => {
 
         {/* Tagline */}
         <div className="mt-20 text-center">
-          <p className="text-3xl sm:text-4xl font-semibold text-[#00ffc3] italic">
+          <p className="text-3xl sm:text-4xl font-semibold text- italic">
             “Waste Redefined. Energy Delivered.”
           </p>
         </div>
