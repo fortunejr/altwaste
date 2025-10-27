@@ -52,7 +52,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold mb-6">
-          Our Solutions
+          Our Services
         </h2>
         <p className="text-lightGreen max-w-2xl mx-auto text-lg">
           Transforming agricultural waste into clean energy through innovative
