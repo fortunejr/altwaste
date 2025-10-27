@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 export default function MarqueeText() {
   return (
-    <div className="bg-green-700 py-10 pb-24 h-12">
+    <div className="bg-darkGreen py-10 pb-24 h-12">
       <Marquee
         gradient={false}
         speed={50}
