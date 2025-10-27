@@ -7,34 +7,40 @@ import {
   FaLightbulb,
 } from "react-icons/fa";
 
+import powersystems from "../../assets/powersystems.mp4";
+import wasteplant from "../../assets/wasteplant.mp4";
+import biooil from "../../assets/biooil.mp4";
+import energyconsulting from "../../assets/energyconsulting.mp4";
+import agrowaste from "../../assets/agrowaste.mp4";
+
 const Services = () => {
   const services = [
     {
-      video: "/src/assets/powersystems.mp4",
+      video: powersystems,
       title: "Biomass Pyrolysis & Gasification Power Systems",
       description:
       "We design and deploy advanced pyro-gasification plants that convert agro-waste into hydrogen-rich syngas, bio-oil, and charcoal for power generation and industrial use.",
     },
     {
-      video: "/src/assets/wasteplant.mp4",
+      video: wasteplant,
       title: "Waste-to-Energy Plant Development",
       description:
       "We build turnkey waste-to-energy plants that transform organic residues into renewable electricity, helping communities and industries achieve energy security.",
     },
     {
-      video: "/src/assets/biooil.mp4",
+      video: biooil,
       title: "Charcoal Briquettes & Bio-Oil Production",
       description:
       "Our pyro-gasification process yields eco-friendly charcoal briquettes and bio-oil — sustainable alternatives to traditional fuels that reduce deforestation and emissions.",
     },
     {
-      video: "/src/assets/energyconsulting.mp4",
+      video: energyconsulting,
       title: "Renewable Energy Consulting",
       description:
       "We provide expert consulting for renewable energy integration, sustainable waste management strategies, and carbon credit optimization for industrial clients.",
     },
     {
-      video: "/src/assets/agrowaste.mp4",
+      video: agrowaste,
       title: "Agro-Waste Collection & Management",
       description:
         "We develop structured systems for sourcing, transporting, and processing agricultural waste, ensuring a reliable supply chain for bioenergy production.",
