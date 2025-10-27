@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { medlogo2 } from "../../imports";
+import { Mail } from "lucide-react";
 
 const Nav = () => {
   const menuItems = [
@@ -44,6 +45,8 @@ const Nav = () => {
             )
           )}
         </div>
+
+        <div className="bg-white rounded-3xl p-2 px-5 font-semibold text-black flex gap-3"> <Mail /> Reach Us</div>
 
         {/* Mobile Menu Toggle */}
         <div className="lg:hidden" onClick={() => setOpen(!open)}>
