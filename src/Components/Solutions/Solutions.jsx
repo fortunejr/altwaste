@@ -10,31 +10,31 @@ import {
 const Services = () => {
   const services = [
     {
-      video: "https://videocdn.cdnpk.net/videos/9c6139aa-f6cd-4836-bfe1-5a8f93b07c29/horizontal/previews/clear/small.mp4?token=exp=1761489173~hmac=705a484f7d14973433808b66caabd3f7681d2a717477ee318bb72fecbb47103f",
+      video: "/src/assets/powersystems.mp4",
       title: "Biomass Pyrolysis & Gasification Power Systems",
       description:
       "We design and deploy advanced pyro-gasification plants that convert agro-waste into hydrogen-rich syngas, bio-oil, and charcoal for power generation and industrial use.",
     },
     {
-      video: "https://videocdn.cdnpk.net/videos/aecfd4e5-5e0f-46d0-bdda-c4d42a4c10f0/horizontal/previews/clear/large.mp4?token=exp=1761489375~hmac=af855e15000614b76db226105ba9f7d0495df385d6df53a44449e0468fa193ea",
+      video: "/src/assets/wasteplant.mp4",
       title: "Waste-to-Energy Plant Development",
       description:
       "We build turnkey waste-to-energy plants that transform organic residues into renewable electricity, helping communities and industries achieve energy security.",
     },
     {
-      video: "https://videocdn.cdnpk.net/videos/11a7f4de-1083-4518-b4c6-7437a6348210/horizontal/previews/watermarked/large.mp4",
+      video: "/src/assets/biooil.mp4",
       title: "Charcoal Briquettes & Bio-Oil Production",
       description:
       "Our pyro-gasification process yields eco-friendly charcoal briquettes and bio-oil — sustainable alternatives to traditional fuels that reduce deforestation and emissions.",
     },
     {
-      video: "https://videocdn.cdnpk.net/videos/a6ef61f6-60a8-4bbd-b4c7-c6fe477dc102/horizontal/previews/clear/large.mp4?token=exp=1761490511~hmac=71836f0bee9ee98903e855e5a5dd3c99e564521b6f60e6efa2d63418ea070cd5",
+      video: "/src/assets/energyconsulting.mp4",
       title: "Renewable Energy Consulting",
       description:
       "We provide expert consulting for renewable energy integration, sustainable waste management strategies, and carbon credit optimization for industrial clients.",
     },
     {
-      video: "https://videocdn.cdnpk.net/videos/86d4f168-5022-4f79-8b81-ef919d9fb9d1/horizontal/previews/clear/large.mp4?token=exp=1761490601~hmac=6a3bd868c76a417a03fe5df8b5c6726d6d632d705d9c99a16cc218951a348914",
+      video: "/src/assets/agrowaste.mp4",
       title: "Agro-Waste Collection & Management",
       description:
         "We develop structured systems for sourcing, transporting, and processing agricultural waste, ensuring a reliable supply chain for bioenergy production.",
