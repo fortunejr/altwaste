@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { hero, herobg } from "../../imports"; // adjust path if needed
+import { hero, herobg, pyrogas } from "../../imports"; // adjust path if needed
+import { BsWhatsapp } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 const HeroSection = () => {
   const phrases = ["Waste Redefined", "Energy Delivered"];
@@ -60,12 +62,19 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4">
-            <button className="bg-lightGreen text- font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#00e6ad] transition-all">
-              Learn More
-            </button>
-            <button className="border border-[#00ffc3] px-6 py-3 rounded-full hover:bg-[#00ffc3]/20 transition-all">
-              Our Projects
-            </button>
+            <a href="https://wa.me/2349166897626">
+              <button className="flex  items-center  gap-2 bg-lightGreen text- font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#00e6ad] transition-all">
+                <BsWhatsapp />
+                Message Us
+              </button>
+            </a>
+
+            <a href="mailto:nnannajnr.okoro@altwasteenergy.com">
+              <button className="flex items-center gap-2 border border-[#00ffc3] px-6 py-3 rounded-full hover:bg-[#00ffc3]/20 transition-all">
+                <MdEmail />
+                Email Us
+              </button>
+            </a>
           </div>
         </div>
 
@@ -73,7 +82,7 @@ const HeroSection = () => {
         <div className="flex-1 relative flex items-center justify-center">
           <div className="hidden lg:block absolute -z-10 w-[450px] h-[450px] bg-yellow-400 rounded-full blur-[2px]" />
           <img
-            src={hero}
+            src={pyrogas}
             alt="BioEnergy Facility"
             className="w-full h-auto max-w-[650px] drop-shadow-2xl rounded-2xl z-10"
           />

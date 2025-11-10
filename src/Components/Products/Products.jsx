@@ -7,7 +7,7 @@ const Products = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-20">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-green-700 mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-darkGreen mb-6">
             Our Sustainable Products
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">

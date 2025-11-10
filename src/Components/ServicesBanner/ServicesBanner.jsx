@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router';
 
 const ServicesBanner = () => {
 return (
@@ -22,9 +23,11 @@ return (
           planning to execution, helping communities and businesses achieve
           cleaner, safer, and more sustainable environments.
         </p>
-        <button className="bg-lightGreen hover:bg-darkGreen text-white font-semibold py-3 px-8 rounded-md transition-all duration-300">
+        <Link to={"/services"}>
+        <button className="cursor-pointer bg-lightGreen hover:bg-darkGreen text-white font-semibold py-3 px-8 rounded-md transition-all duration-300">
           See All Services
         </button>
+        </Link>
       </div>
     </section>
   );

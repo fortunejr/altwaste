@@ -1,5 +1,6 @@
 import React from "react";
-import { profile } from "../../imports";
+import { aboutimg } from "../../imports";
+import { Link } from "react-router";
 
 const Intro = () => {
   return (
@@ -11,14 +12,14 @@ const Intro = () => {
           <div className="flex-1 flex justify-center relative group">
             <div className="relative">
               <img
-                src={profile}
-                alt="Dr. Nnanna-jnr Okoro, CEO AltWaste"
-                className="w-[340px] h-auto rounded-3xl shadow-2xl border-4 border-lightGreen/40 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                src={aboutimg}
+                alt="AltWaste about"
+                className="h-auto rounded-3xl object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute -bottom-6 -right-6 bg-lightGreen text-white px-6 py-3 rounded-full text-sm font-semibold shadow-md backdrop-blur-sm">
+              {/* <div className="absolute -bottom-6 -right-6 bg-lightGreen text-white px-6 py-3 rounded-full text-sm font-semibold shadow-md backdrop-blur-sm">
                 <p>CEO & Head of Technology</p>
                 <p className="text-xs font-light">Dr. Nnanna-jnr Okoro</p>
-              </div>
+              </div> */}
             </div>
             <div className="absolute -z-10 w-72 h-72 bg-lightGreen/20 rounded-full blur-3xl top-0 right-0"></div>
           </div>
@@ -80,7 +81,9 @@ const Intro = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
           <div className="bg-[#f4fff6] rounded-3xl shadow-md border border-lightGreen/30 p-10 hover:-translate-y-2 hover:shadow-xl transition-all duration-500">
-            <h3 className="text-2xl font-bold text-darkGreen mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold text-darkGreen mb-4">
+              Our Mission
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               To deliver innovative and sustainable bioenergy solutions that
               convert organic waste into clean, affordable energy for a greener
@@ -89,7 +92,9 @@ const Intro = () => {
           </div>
 
           <div className="bg-[#e6fff3] rounded-3xl shadow-md border border-[#00ffc3]/30 p-10 hover:-translate-y-2 hover:shadow-xl transition-all duration-500">
-            <h3 className="text-2xl font-bold text-darkGreen mb-4">Our Vision</h3>
+            <h3 className="text-2xl font-bold text-darkGreen mb-4">
+              Our Vision
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               To be Africa’s leading bioenergy company, advancing renewable
               technologies that promote energy security, environmental
@@ -97,6 +102,12 @@ const Intro = () => {
             </p>
           </div>
         </div>
+
+        <Link to = {"/about"} >
+        <button className="mx-auto flex items-center  mt-10 cursor-pointer bg-lightGreen text- font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#00e6ad] transition-all">
+          Read more
+        </button>
+        </Link>
 
         {/* Tagline with subtle animation */}
         <div className="mt-24 text-center">

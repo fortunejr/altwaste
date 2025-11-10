@@ -7,6 +7,8 @@ import Intro from '../../Components/Intro/Intro'
 import Solutions from '../../Components/Solutions/Solutions'
 import Products from '../../Components/Products/Products'
 import ServicesBanner from '../../Components/ServicesBanner/ServicesBanner'
+import OurAim from '../../Components/OurAim/OurAim'
+import SocioEconomicOutcomes from '../../Components/SocioEconomicOutcomes/SocioEconomicOutcomes'
 
 const Homepage = () => {
   return (
@@ -15,6 +17,8 @@ const Homepage = () => {
         <Stats />
         <ServicesBanner />
         <Intro />
+        <OurAim />
+        <SocioEconomicOutcomes />
         <Solutions />
         <Products />
         <MarqueeText />
