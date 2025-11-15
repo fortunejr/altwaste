@@ -8,6 +8,7 @@ import Services from "./Pages/Services/Services.jsx"
 import Products from "./Pages/Products/ProductsPage.jsx"
 import ProductsPage from "./Pages/Products/ProductsPage.jsx"
 import ContactPage from "./Pages/Contact/ContactPage.jsx"
+import PyrogasPage from "./Pages/Pyrogas/PyrogasPage.jsx"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/pyrogas-plants" element={<PyrogasPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />

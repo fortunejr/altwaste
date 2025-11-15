@@ -12,6 +12,7 @@ const Nav = () => {
     { name: "ABOUT US", link: "/about" },
     { name: "SERVICES", link: "/services" },
     { name: "PRODUCTS", link: "/products" },
+    { name: "PYROGAS PLANTS", link: "/pyrogas-plants" },
     { name: "CONTACT", link: "/contact" },
   ];
 
@@ -20,7 +21,7 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link to="/">
-          <img className="h-10 lg:h-12" src={medlogo2} alt="logo" />
+          <img className="h-12 lg:h-16" src={medlogo2} alt="logo" />
         </Link>
 
         {/* Desktop Menu */}

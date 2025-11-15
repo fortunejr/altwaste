@@ -40,11 +40,11 @@ const Footer = () => {
                 Plot 1202 Ademola Adetokunbo Crescent, Wuse 2, Abuja
               </p>
               <a
-                href="mailto:nnannajnr.okoro@altwasteenergy.com"
+                href="mailto:info@altwasteenergy.com"
                 className="flex items-center gap-3 hover:text-[#00ffc3] transition-colors"
               >
                 <MdEmail className="text-[#00ffc3]" />
-                nnannajnr.okoro@altwasteenergy.com
+                info@altwasteenergy.com
               </a>
               <a
                 href="tel:+2349166897626"
@@ -65,7 +65,8 @@ const Footer = () => {
               {[
                 { label: "About Us", path: "/about" },
                 { label: "Our Services", path: "/services" },
-                { label: "Products", path: "/product" },
+                { label: "Products", path: "/products" },
+                { label: "Pyrogas Plants", path: "/pyrogas-plants" },
                 { label: "Contact", path: "/contact" },
               ].map((link, i) => (
                 <li key={i}>
@@ -87,9 +88,9 @@ const Footer = () => {
             </h2>
             <div className="flex items-center gap-5">
               {[
-                { Icon: FaFacebook, link: "#" },
-                { Icon: FaInstagram, link: "#" },
-                { Icon: FaLinkedinIn, link: "#" },
+                // { Icon: FaFacebook, link: "#" },
+                { Icon: FaInstagram, link: "https://www.instagram.com/altwaste.energy?igsh=bzk0amw0MHllZnBx" },
+                // { Icon: FaLinkedinIn, link: "#" },
               ].map(({ Icon, link }, i) => (
                 <a
                   key={i}

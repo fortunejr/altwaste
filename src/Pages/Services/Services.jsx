@@ -3,7 +3,7 @@ import Solutions from '../../Components/Solutions/Solutions'
 
 const Services = () => {
   return (
-    <div className='pt-9'>
+    <div className='pt-20'>
         <Solutions />
     </div>
   )

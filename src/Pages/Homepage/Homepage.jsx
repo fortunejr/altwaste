@@ -9,12 +9,14 @@ import Products from '../../Components/Products/Products'
 import ServicesBanner from '../../Components/ServicesBanner/ServicesBanner'
 import OurAim from '../../Components/OurAim/OurAim'
 import SocioEconomicOutcomes from '../../Components/SocioEconomicOutcomes/SocioEconomicOutcomes'
+import Slideshow from '../../Components/Slideshow/Slideshow'
 
 const Homepage = () => {
   return (
     <div>
         <HeroSection />
         <Stats />
+        <Slideshow />
         <ServicesBanner />
         <Intro />
         <OurAim />
