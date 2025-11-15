@@ -37,10 +37,10 @@ const ContactPage = () => {
               <div>
                 <h3 className="font-semibold text-lg">Email</h3>
                 <a
-                  href="mailto:nnannajnr.okoro@altwasteenergy.com"
+                  href="mailto:info@altwasteenergy.com"
                   className="text-gray-600 hover:text-[#00ffc3] transition-colors"
                 >
-                  nnannajnr.okoro@altwasteenergy.com
+                  info@altwasteenergy.com
                 </a>
               </div>
             </div>

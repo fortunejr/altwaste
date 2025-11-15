@@ -80,7 +80,7 @@ const HeroSection = () => {
               </button>
             </a>
 
-            <a href="mailto:nnannajnr.okoro@altwasteenergy.com">
+            <a href="mailto:info@altwasteenergy.com">
               <button className="flex items-center gap-2 border border-[#00ffbf] px-6 py-3 rounded-full hover:bg-[#00ffbf] hover:bg-opacity-20 transition-all">
                 <MdEmail />
                 Email Us

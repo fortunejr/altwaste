@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { bamboo, coconuthusk, coconutshell, corncob, cornstraw, emptypalmfruit, olivenut, palmkernel, peanutshell, ricehusk, sorghumstalk, sugarcane, walnutshell, woodchips } from "../../imports";
+import { bamboo, coconuthusk, coconutshell, corncob, cornstraw, emptypalmfruit, olivenut, palmkernel, peanutshell, ricehusk, sawdust, sorghumstalk, sugarcane, walnutshell, woodchips } from "../../imports";
 
 // Define custom color variables (assuming lightGreen is defined in your main styles)
 const primaryColor = "bg-green-600"; 
@@ -8,12 +8,11 @@ const primaryColorText = "text-green-600";
 
 const slideshowImages = [
   { src: bamboo, label: "Bamboo" },
-  { src: sorghumstalk, label: "Sorghum Stalk" },
   { src: olivenut, label: "Olive Nut" },
   { src: cornstraw, label: "Corn Straw" },
   { src: emptypalmfruit, label: "Empty Palm Fruit Bunch" },
   { src: corncob, label: "Corn Cob" },
-  { src: palmkernel, label: "Palm Kernel Shell" },
+  { src: palmkernel, label: "Palm Kernel Shells" },
   { src: coconutshell, label: "Coconut Shell" },
   { src: woodchips, label: "Wood Chips" },
   { src: sugarcane, label: "Sugarcane Bagasse" },
@@ -21,6 +20,7 @@ const slideshowImages = [
   { src: peanutshell, label: "Peanut Shell" },
   { src: walnutshell, label: "Walnut Shell" },
   { src: ricehusk, label: "Rice Husk" },
+  { src: sawdust, label: "Saw Dust" },
 ];
 
 const Slideshow = () => {
@@ -47,7 +47,7 @@ const Slideshow = () => {
 
   // Add the whole slideshow inside a contextual section
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 px-6 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-16 text-center mb-10">
         <h2 className={`text-3xl sm:text-4xl font-extrabold text-darkGreen`}>
           Feedstock

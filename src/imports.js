@@ -22,20 +22,21 @@ import pyrogas100 from "./assets/pyrogas100.png";
 import pyrogas300 from "./assets/pyrogas300.png";
 import pyrogas500 from "./assets/pyrogas500.png";
 import pyrogas1000 from "./assets/pyrogas1000.png";
-import bamboo from "./assets/bamboo-offcuts.png";
+import bamboo from "./assets/bamboo-offcuts.jpg";
 import sorghumstalk from "./assets/sorghum-stalk.png";
-import olivenut from "./assets/olivenut-shell.png";
-import cornstraw from "./assets/corn-straw.png";
-import emptypalmfruit from "./assets/emptypalmfruit-bunch.png";
-import corncob from "./assets/corn-cob.png";
-import palmkernel from "./assets/palmkernel-shell.png";
-import coconutshell from "./assets/coconutshell.png";
-import woodchips from "./assets/woodchips.png";
-import sugarcane from "./assets/sugarcane-bagasse.png";
-import coconuthusk from "./assets/coconut-husk.png";
-import peanutshell from "./assets/peanut-shell.png";
-import walnutshell from "./assets/walnut-shell.png";
-import ricehusk from "./assets/rice-husk.png";
+import olivenut from "./assets/olivenut-stone.jpg";
+import cornstraw from "./assets/corn-straw.jpg";
+import emptypalmfruit from "./assets/emptypalmfruit-bunch.jpg";
+import corncob from "./assets/corn-cob.jpg";
+import palmkernel from "./assets/palmkernel-shell.jpg";
+import coconutshell from "./assets/coconutshell.jpg";
+import woodchips from "./assets/woodchips.jpg";
+import sugarcane from "./assets/sugarcane-bagasse.jpg";
+import coconuthusk from "./assets/coconut-husk.jpg";
+import peanutshell from "./assets/peanut-shell.jpg";
+import walnutshell from "./assets/walnut-shell.jpg";
+import ricehusk from "./assets/rice-husk.jpg";
+import sawdust from "./assets/sawdust.jpg";
 
 export {
   smalllogo,
@@ -76,4 +77,5 @@ export {
   peanutshell,
   walnutshell,
   ricehusk,
+  sawdust,
 };

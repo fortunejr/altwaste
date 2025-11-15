@@ -84,12 +84,12 @@ const Intro = () => {
               <div className="mt-4">
                 <h3 className="text-[#008060] font-semibold text-lg">
                   Dr. Nnanna-jnr Okoro{" "}
-                  <span className="italic font-normal">COREN, MNSE, SACI</span>
+                  <span className="italic font-normal text-gray-600">PhD. Chem Eng. (Wits), MNSE, SACI</span>
                 </h3>
 
-                <p className="text-gray-600 text-sm mt-1">
-                  CEO / Head of Technology – Bioenergy/Biofuels
-                </p>
+                {/* <p className="text-gray-600 text-sm mt-1">
+                 Dr Nnanna-jnr Okoro 
+                </p> */}
               </div>
             </div>
           </div>
