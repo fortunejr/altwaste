@@ -87,9 +87,9 @@ const Intro = () => {
                   <span className="italic font-normal text-gray-600">PhD. Chem Eng. (Wits), COREN, MNSE, SACI</span>
                 </h3>
 
-                {/* <p className="text-gray-600 text-sm mt-1">
-                 Dr Nnanna-jnr Okoro 
-                </p> */}
+                <p className="text-gray-600 mt-1 text-sm font-bold">
+                  CEO/Head of Technology – Bioenergy/Biofuels 
+                </p>
               </div>
             </div>
           </div>
