@@ -29,7 +29,7 @@ const Intro = () => {
               waste into clean, sustainable biofuels and bioenergy. We operate
               advanced biomass pyro-gasification plants that process residues
               such as sawdust, rice husk, corn cobs, and palm kernel shells —
-              producing renewable electricity, charcoal, and bio-oil.
+              producing <span className="font-bold">renewable electricity, charcoal,</span> and <span className="font-bold">bio-oil.</span>
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-10">
@@ -84,7 +84,7 @@ const Intro = () => {
               <div className="mt-4">
                 <h3 className="text-[#008060] font-semibold text-lg">
                   Dr. Nnanna-jnr Okoro{" "}
-                  <span className="italic font-normal text-gray-600">PhD. Chem Eng. (Wits), MNSE, SACI</span>
+                  <span className="italic font-normal text-gray-600">PhD. Chem Eng. (Wits), COREN, MNSE, SACI</span>
                 </h3>
 
                 {/* <p className="text-gray-600 text-sm mt-1">
