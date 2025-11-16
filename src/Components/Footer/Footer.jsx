@@ -1,6 +1,6 @@
 import React from "react";
 import { medlogo, medlogo2 } from "../../imports";
-import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 
@@ -88,9 +88,10 @@ const Footer = () => {
             </h2>
             <div className="flex items-center gap-5">
               {[
-                // { Icon: FaFacebook, link: "#" },
+                { Icon: FaFacebook, link: "https://www.facebook.com/share/1NgMTHwBxe/" },
                 { Icon: FaInstagram, link: "https://www.instagram.com/altwaste.energy?igsh=bzk0amw0MHllZnBx" },
-                // { Icon: FaLinkedinIn, link: "#" },
+                { Icon: FaLinkedinIn, link: "https://linkedin.com/company/altwaste" },
+                { Icon: FaTiktok, link: "https://www.tiktok.com/@altwaste?_r=1&_t=ZS-91QbEbB4SiC" },
               ].map(({ Icon, link }, i) => (
                 <a
                   key={i}
