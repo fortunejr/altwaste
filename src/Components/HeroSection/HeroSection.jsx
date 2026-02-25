@@ -62,7 +62,7 @@ const HeroSection = () => {
           <h1 className="slide-in-left text-4xl sm:text-6xl lg:text-6xl leading-tighter">
             The <span className="text-[#00ffbf]">BioEnergy</span>
             <br />
-            Recovery Project
+            Recovery Programme
           </h1>
 
           {/* Description */}

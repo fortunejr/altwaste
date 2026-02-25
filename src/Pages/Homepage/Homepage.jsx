@@ -15,7 +15,7 @@ const Homepage = () => {
   return (
     <div>
         <HeroSection />
-        <Stats />
+        {/* <Stats /> */}
         <Slideshow />
         <ServicesBanner />
         <Intro />

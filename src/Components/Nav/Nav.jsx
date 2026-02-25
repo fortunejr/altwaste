@@ -9,10 +9,10 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
 
   const menuItems = [
-    { name: "ABOUT US", link: "/about" },
     { name: "SERVICES", link: "/services" },
     { name: "PRODUCTS", link: "/products" },
     { name: "PYROGAS PLANTS", link: "/pyrogas-plants" },
+    { name: "ABOUT US", link: "/about" },
     { name: "CONTACT", link: "/contact" },
   ];
 
