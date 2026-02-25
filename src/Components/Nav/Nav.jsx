@@ -12,7 +12,6 @@ const Nav = () => {
     { name: "SERVICES", link: "/services" },
     { name: "PRODUCTS", link: "/products" },
     { name: "PYROGAS PLANTS", link: "/pyrogas-plants" },
-    { name: "PYROGAS PLANTS", link: "/pyrogas-plants" },
     { name: "MEET THE TEAM", link: "/Team" },
     { name: "ABOUT US", link: "/about" },
     { name: "CONTACT", link: "/contact" },
@@ -27,7 +26,7 @@ const Nav = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-14 text-sm font-semibold">
+        <div className="hidden lg:flex items-center gap-14 text-[13px] font-semibold">
           {menuItems.map((menu, i) =>
             menu.link.includes("#") ? (
               <a
